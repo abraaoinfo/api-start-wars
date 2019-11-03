@@ -53,6 +53,7 @@ Ideia desse modelo é não duplicar filme na base e nem nave e diminuir o acesso
 ## Tecnologias usadas.
 
 - spring-boot
+- spring data
 - java 8
 - lombok
 - maven
