@@ -37,13 +37,22 @@ A aplicação disponibiliza alguns endpoints
 mvn clean install
 mvn spring-boot:run
 
+Criar uma base de dados chamada start-wars no mysql.
+
 Obs. Não é necessario para executar a aplicação, mas é recomendado instalar o puglin do lombok na idea.
 
 
 ### Modelo de dados
 
-Tabelas.
 ![alt text](https://raw.githubusercontent.com/abraaoinfo/api-start-wars/master/src/main/resources/static/diagrama.png)
+
+
+
+Ideia desse modelo é não duplicar filme na base e nem nave e diminuir o acesso a api publica. Caso o filme já esteja na base ele so associa com o planeta, caso não econtre o filme na base ele busca na api e grava na base.
+
+
+
+
 
 
 
