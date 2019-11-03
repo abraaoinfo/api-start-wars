@@ -40,5 +40,8 @@ mvn spring-boot:run
 Obs. Não é necessario para executar a aplicação, mas é recomendado instalar o puglin do lombok na idea.
 
 
+### Modelo de dados
+
+<img src=”https://raw.githubusercontent.com/abraaoinfo/api-start-wars/master/src/main/resources/static/diagrama.png”>
 
 
