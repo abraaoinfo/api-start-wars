@@ -44,9 +44,10 @@ Obs. Não é necessario para executar a aplicação, mas é recomendado instalar
 
 Tabelas.
 ![alt text](https://raw.githubusercontent.com/abraaoinfo/api-start-wars/master/src/main/resources/static/diagrama.png)
-Planet
-Planet_film
-film
+
+
+
+
 
 
 
