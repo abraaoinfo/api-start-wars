@@ -15,7 +15,6 @@ public class PlanetDTO {
     private String url;
     private LocalDateTime created;
     private List<FilmDTO> filmsList;
-    @JsonIgnore
     private List<String> films;
 
 

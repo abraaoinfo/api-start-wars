@@ -18,7 +18,6 @@ public class FilmDTO {
     private String producer;
     private List<StarshipDTO> starshipList;
     private String url;
-    @JsonIgnore
     private List<String> starships;
 
 
