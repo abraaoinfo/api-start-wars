@@ -21,12 +21,11 @@ A aplicação disponibiliza alguns endpoints
  
      - **[+GET+]** -  [http://localhost:8000/v1/planets/?name=](http://localhost:8000/v1/planets/?name=)     
         
-    
-- **Delete planet por id**
+- **remover planet por id**
     
     - **[+Delete+]** - [http://localhost:8000/v1/planets/id](http://localhost:8000/v1/planets/id])
     
-- **criar  planeta**  
+- **criar  laneta**  
     
     - **[+POST+]** - [http://localhost:8000/v1/planets](http://localhost:8000/v1/planets/)
     
@@ -49,6 +48,21 @@ Obs. Não é necessario para executar a aplicação, mas é recomendado instalar
 
 
 Ideia desse modelo é não duplicar filme na base e nem nave e diminuir o acesso a api publica. Caso o filme já esteja na base ele so associa com o planeta, caso não econtre o filme na base ele busca na api e grava na base.
+
+
+## Tecnologias usadas.
+
+- spring-boot
+- java 8
+- lombok
+- maven
+- mysql
+
+
+## Divida Tecnicas
+
+Não foram feito od teste unitario e nem intregado, apaser da sua importancia.
+Não foi feito processo paralelo para as varias chamadas a api publica.
 
 
 
